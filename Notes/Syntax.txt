@@ -1,0 +1,42 @@
+Syntax
+
+    1 Syntax from a hello world
+
+        fun main() {
+            println("Hello, World!")
+        }
+
+        - // Comments
+        - "fun" -> Entry point
+            - This function has a special name main() and a body enclosed in braces {...}
+        - println("") -> Prints a string to the console output
+        - Needs new lines for each statements, withou "," or ";"
+
+    2 - Output
+        - println() -> Display a string followed by a new line
+        - print()   -> Display a string and put the cursor after
+
+        - Can print also numbers and characters
+
+    3 - Standard Input
+        - It reads the whole line as a string:
+            val line = readLine()!!
+            val number = readLine()!!.toInt() = var number = readln().toInt()
+        - Shortcomings
+            - Read several values from the same line ( one by one ) by a delimiter
+                - val (c, d, e) = readLine()!!.split(' ') // can read, for example "Go for it"
+
+                print("Enter cells:")
+                    val scanner = readln().toCharArray()
+
+        - Java Scanner
+            - Needsdeclaration
+                import java.util.Scanner or import java.util.*
+
+            - Let's create a variable initialized by Scanner:
+              val scanner = Scanner(System.`in`)
+
+              -Functions wecan use
+                val line = scanner.nextLine() // read a whole line, i.e. "Hello, Kotlin"
+                val num = scanner.nextInt()   // read a number, i.e. 123
+                val string = scanner.next()   // read a string, i.e. "Hello"

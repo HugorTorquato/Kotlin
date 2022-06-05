@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel target="17">
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-classes-java.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-classes-kotlin.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-generated-sources-annotationProcessor-java.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-generated-sources-headers-java.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-reports-tests.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-test-results.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task-build-tmp.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Simple_Tic-Tac-Toe-task.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Invoking_functions-Lembas.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Invoking_functions-Square_root.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Invoking_functions-The_magic_of_println.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Invoking_functions-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Overview_of_the_basic_program-I_like_Kotlin.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Overview_of_the_basic_program-Multiple_statements.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Overview_of_the_basic_program-The_eternal_truth.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Overview_of_the_basic_program-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Overview_of_the_basic_program-Your_name.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Standard_output-Correct_the_code.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Standard_output-Print_code.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Standard_output-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Standard_output-Tic-Tac-Toe.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Standard_output-We_need_to_learn_Kotlin.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Standard_output-What_does_the_program_print.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-String_templates-Repetitions_and_templates.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-String_templates-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-The_classification_of_basic_types-Size,_min_and_max.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-The_classification_of_basic_types-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-The_classification_of_basic_types-Upper_possible_value.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Type_conversion-Cutting_the_fraction.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Type_conversion-The_superior_forces_of_the_Empire.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Type_conversion-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Values_and_variables-Swap.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.Topics-Values_and_variables-Theory.main" target="11" />
+      <module name="Simple_Tic-Tac-Toe.util.main" target="11" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

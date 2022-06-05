@@ -1,0 +1,88 @@
+Variables:
+
+    1-Integer Numbers:
+        - We can add "_" to divide numbers, in order to make it more readable ( NOT in the beginning or end )
+            1000 = 1_000  1000000 = 1_000_000
+    2 - Characters:
+        - Can represent a digit, letter or symbol ( also white spaces )
+        - Character representing number '9', actual number 9
+        - Cannot represent two or more characters, only one
+    3 - Strings:
+        - Represent text informations
+        - Use double quotes to write "HUGO"
+        - Can include everything
+
+        - Length: number of characters that are enclosed between ""
+            val language = "Kotlin"
+            println(language.length) // 6
+
+        - Concatenation: Contruct one string out of another
+            val str1 = "ab"
+            val str2 = "cde"
+            val result = str1 + str2 // "abcde"
+
+        - Appending: "+" also works to append values ( but must start with string or character with string)
+            val stringPlusBoolean = "abc" + 10 + true
+            println(stringPlusBoolean) // abc10true
+
+        - Repeating:
+            print("Hello".repeat(4)) // HelloHelloHelloHello
+
+        - Raw: can contain newlines and any other characters. You just need to wrap the text in triple quotes ("""):
+            val largeString = """
+                This is the house that Jack built.
+
+                This is the malt that lay in the house that Jack built.
+
+                This is the rat that ate the malt
+                That lay in the house that Jack built.
+
+                This is the cat
+                That killed the rat that ate the malt
+                That lay in the house that Jack built.
+            """.trimIndent() // removes the first and the last lines and trim indents
+            print(largeString)
+
+        - STRING TEMPLATES ($<vaiable>in the string)
+            - Put values of variables in a text
+                val city = "Paris"
+                val temp = "24"
+
+                println("Now, the temperature in $city is $temp degrees Celsius.")
+            - Can also work for expressions
+                val language = "Kotlin"
+                println("$language has ${language.length} letters in the name")
+
+
+    Conclusion:
+        - 123 != "123"
+        - 'A' is a character and "A" is a string
+        - '1' is a character and 1 is an integer
+
+    Declaring Variables:
+        - val -> (Used for values) -> Immutable variable that cannot ( almost all the time ) be changed after
+            - User cannot reassine it but can change the internal state of the object
+                - Add another value ( with the same type ) on a val list for example
+        - var -> (for variables)   -> This one can change as many times the user wants
+
+        - CANNOT START WITH DIGITS
+        - User can initialise a variable with the variable of another variable
+            val cost = 3
+            val costOfCoffee = cost
+            println(costOfCoffee) // prints 3
+        - for mutable variables (VAR) -> User can only reassign values of the same type
+            - INT INT
+            - STRING STRING
+        - Better to use immutable variables (VAL)
+        - Use VAL values by default and, when necessary, go to VAR ( but only whennecessary )
+            - Se recebe algum tipo de argumento... não pode usar val
+
+        - The variable type is set when the variable is set, cannot mechanged latter
+            - type inference
+        - You can also specify the type of a variable when declaring it:
+            val/var identifier: <Type> = initialization
+
+    CONST Values
+        - Needs to be used with the corresponding value, cannot be assigned later
+        - Can only be used with string or primitive type variables ( string, integer, floas, character or array )
+        - needs to be declared on top level ( outside main())

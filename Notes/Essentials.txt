@@ -1,0 +1,38 @@
+
+    UNITS
+        - BIT is the smallest unit of information
+        - Byte is a sequence of 8 BITS
+
+    BASIC TYPES
+        - Integer Numbers:
+            - Byte (-128 127) - 8 Bits 1 Byte
+            - Short (-32768 32767 ) -16Bits 2 Bytes
+            - Int (-2^31 (2^31)-1) 32 Bits 4Bytes
+            - Long (-2^63 (2^63)-1) 64Bits 8 Bytes
+
+            val ten: Long = 10
+
+        -  Floating-point types:
+            - Double (64 Bits) (~14-16 Digits)
+            - Float (32 Bits) (~6-7 digits)
+
+        println(Int.MIN_VALUE)  // -2147483648
+        println(Int.MAX_VALUE)  // 2147483647
+        println(Long.MIN_VALUE) // -9223372036854775808
+        println(Long.MAX_VALUE) // 9223372036854775807
+        println(Int.SIZE_BITS) // 8
+
+    Conversion between numeric types
+        - toInt(), toLong(), toDouble(), and so on.
+        - toDouble() does not modify the type of the variable. This function produces a new value of the Double type.
+            - user needs to reassign to cause the change for the same variable ( if possible )
+        - Float to int will drop the fraction part
+            val d: Double = 12.5
+            val n: Long = d.toLong() // 12
+        - Boolean conversions are case sensitive
+            val b1 = "false".toBoolean() // false
+            val b2 = "tru".toBoolean()   // false
+            val b3 = "true".toBoolean()  // true
+            val b4 = "TRUE".toBoolean()  // true
+        -
+
