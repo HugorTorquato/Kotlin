@@ -29,6 +29,15 @@ Syntax
                 print("Enter cells:")
                     val scanner = readln().toCharArray()
 
+        - READLN()
+            - Reads the whole line as a string
+            - returns a string
+            - Reading multiple values in one line
+                val (a, b) = readln().split(" ")
+                println(a)
+                println(b)
+            -
+
         - Java Scanner
             - Needsdeclaration
                 import java.util.Scanner or import java.util.*
@@ -40,3 +49,47 @@ Syntax
                 val line = scanner.nextLine() // read a whole line, i.e. "Hello, Kotlin"
                 val num = scanner.nextInt()   // read a number, i.e. 123
                 val string = scanner.next()   // read a string, i.e. "Hello"
+
+    4- Logical operators
+        - !   -> NOT - Reverses the boolean value
+        - &&  -> AND - Returns true if bot operands are true
+        - ||  -> OR  - Returns true if at least one operand is true
+        - XOR -> XOR - Returns true if the operands have different values
+
+    5 - Arithmetic operations
+        - addition +
+        - subtraction -
+        - multiplication *
+        - integer division / -> perator divides the integer parts of two numbers; the fractional part is discarded
+        - modulus % -> The % operator finds the remainder of a division:
+
+        println(11 / -4)   // prints -2
+        println(11 % -4)   // prints 3
+
+        - Compound assignment operators can be applied only to a variable that is already defined and cannot
+         be used to declare a new variable:
+            += assignment after addition: A += B equals A = A + B
+            -= assignment after subtraction: A -= B equals A = A - B
+            *= assignment after multiplication: A *= B equals A = A * B
+            /= assignment after division: A /= B equals A = A / B
+            %= assignment of the remainder after division: A %= B equals A = A % B
+
+        - Prefix form changes the value of a variable before it is used (++a)
+        - Postfix form changes the value of a variable after it is used (a++)
+            var num = 3
+            num++  // 4, increment
+            num--  // 3, decrement
+
+
+    6 - List of relational operators
+
+        == — equal to X
+        != — not equal to X
+        > — greater than X
+        >= — greater than or equal to X
+        < — less than X
+        <= — less than or equal to X
+
+        - You can compare Int and Long freely with >, <. >=, <=, but cannot use == and !=.
+            You can check equality only for the same types, so you need to convert Int to Long
+

@@ -34,5 +34,9 @@
             val b2 = "tru".toBoolean()   // false
             val b3 = "true".toBoolean()  // true
             val b4 = "TRUE".toBoolean()  // true
-        -
+        - Reduzind the size of a variable
+            - Can cause overflow problems
+            - operation with diferent type of variables ( kotlin will infer from the context )
+                - The resoult will follow the widest type
+
 

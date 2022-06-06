@@ -3,6 +3,12 @@ Variables:
     1-Integer Numbers:
         - We can add "_" to divide numbers, in order to make it more readable ( NOT in the beginning or end )
             1000 = 1_000  1000000 = 1_000_000
+        - unsigned integers – integers that can contain only non-negative values.
+            UByte	an unsigned 8-bit integer, ranges from 0 to 255
+            UShort	an unsigned 16-bit integer, ranges from 0 to 65535
+            UInt	an unsigned 32-bit integer, ranges from 0 to 4 294 967 295 (2^32-1)
+            ULong	an unsigned 64-bit integer, ranges from 0 to 18 446 744 073 709 551 615 (2^64-1)
+
     2 - Characters:
         - Can represent a digit, letter or symbol ( also white spaces )
         - Character representing number '9', actual number 9
@@ -53,6 +59,10 @@ Variables:
                 val language = "Kotlin"
                 println("$language has ${language.length} letters in the name")
 
+    4 - Booleans
+        - toBoolean() returns true if the input is "true", case insensitive. If otherwise, it will return false.
+            val b: Boolean = readln().toBoolean()
+        -
 
     Conclusion:
         - 123 != "123"
