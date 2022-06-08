@@ -93,3 +93,59 @@ Syntax
         - You can compare Int and Long freely with >, <. >=, <=, but cannot use == and !=.
             You can check equality only for the same types, so you need to convert Int to Long
 
+    7- Conditional expression
+            if (expression0) {
+                // do something
+            } else if (expression1) {
+                // do something else 1
+            // ...
+            } else if (expressionN) {
+                // do something else N
+            }
+        - it can return a value (result) of computations, assigns a value to a variable using if
+            The result must be the last expression in a body.
+        - If you are going to use the if as an expression, it must have an else branch.
+               val max = if (a > b) {
+                   println("Choose a")
+                   a
+               } else {
+                   println("Choose b")
+                   b
+               }
+        -  If all the bodies contain only a single statement, you can skip braces:
+
+               val max = if (a > b) a else b
+         - using if as an expression is a better way. For example:
+
+               val max = if (a > b) a else b // one line
+
+               ...
+
+               var max = a // try to avoid var if possible
+               if (b > a) max = b
+
+	8- Repeat Statments
+		- Repeat loop
+			- Simple loop (n) times, repeats what is inside the braces. The user can control the iteration with "it"
+				Same as * in forms
+			
+				repeat(n) {
+					// statements
+				}
+				
+	9 - Objects
+		- Every variable is an object
+		- Can store some data and do something
+		- Part of memory that stores some sort of information
+		- Something that allows you to access the state of an object is called a property
+			- Using "."
+				msg: val msg = "Hi". There is a .length property in a string, so msg.length gives us 2.
+		- Some functons are also bound to a specific type : msg.repeade(3) for example "hihihi"
+		- If you create a variable and assign an object to it, another variable can point to the same object as well
+			val msg1 = "Hi"
+			val msg2 = msg1
+			There will be two values pointing to a single object "Hi":
+		
+			
+			
+			
