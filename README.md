@@ -1,2 +1,0 @@
-# Kotlin
-Learn Kotlin
