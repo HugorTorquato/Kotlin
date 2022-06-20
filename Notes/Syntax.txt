@@ -153,11 +153,26 @@ Syntax
 		- User can also combineranges using logical operators || and &&
 		- User can also assign the range to a variable (val) imutable
 		- also works for characters and strings
-<<<<<<< HEAD
+
+	11 - FOR loop
+		- can iterate through ranges, arrays, and other collections
+			for (element in source) {
+				// body of loop
+			}
+		- an elemento to be used inside the loop to represent each itaration at a times
+		- source is everything tha has more than one value in a row ( ranges, strings, arrays... )
+		- can be done in reverse, using downTo
+			for (i in 4 downTo 1) {
+				println(i)
+			}
+		- Using intill it will exclude the upper limit ( put it instead of "downTo" )
+		- step is always present, but default one, to change taht we just need to type ( will work for every option )
+			for (i in 1..7 step 2) {
+				println(i)
+			}
 		
-=======
+		for (i in 1..6) { ... }        // closed range: 1, 2, 3, 4, 5, 6
+		for (i in 1 until 6) { ... }   // half-open range: 1, 2, 3, 4, 5
+		for (x in 1..6 step 2) { ... } // step 2: 1, 3, 5
+		for (x in 6 downTo 1) { ... }  // closed range, backward order: 6, 5, 4, 3, 2, 1 
 		
-			
-			
-			
->>>>>>> bb413800ca0fd4f5917f428e5ab5f5e8f38f62f5
