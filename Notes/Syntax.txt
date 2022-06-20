@@ -146,6 +146,14 @@ Syntax
 			val msg2 = msg1
 			There will be two values pointing to a single object "Hi":
 		
+	10 - Ranges
+		- (val within = a <= c && c <= b) is the same as (val within = c in a..b)
+		- The key keyword will include every number on the range (a..b) including a and be
+			- Can be excluded typing -1 after the variable b for example
+		- User can also combineranges using logical operators || and &&
+		- User can also assign the range to a variable (val) imutable
+		- also works for characters and strings
+		
 			
 			
 			
