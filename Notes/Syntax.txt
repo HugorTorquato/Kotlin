@@ -176,3 +176,29 @@ Syntax
 		for (x in 1..6 step 2) { ... } // step 2: 1, 3, 5
 		for (x in 6 downTo 1) { ... }  // closed range, backward order: 6, 5, 4, 3, 2, 1 
 		
+	12 - MUTABLELIST
+		- MutableList is an ordered list of variables of the same type. 
+			You can access the list items by their indexes.
+			
+			val numbers = mutableListOf<Double>(10.8, 14.3, 13.5, 12.1, 9.7) 
+			println(numbers) // [10.8, 14.3, 13.5, 12.1, 9.7]
+		
+		- Inex starts with 0
+		- can handle Int, Long, Double, Float, Char, String, Byte, or Boolean.
+		- Create amultableList of an specific size "MutableList(n)"
+		- if we páss something on the braces, kotlin will repet it over N times
+			"a = MutableList(n) {"a"}" = {"a","a"....}
+		- There are also some properties "a.size" for example
+		- Read a mutable list from input
+			val mi,bers = MutableList(N) { readln().toInt() }
+		- Or get a string and split it
+			var numbers = readln().split(" ").map { it.toInt() }.toMutableList()
+		- User can get or set elements by index numbers[2] for example
+		- [0 ~ numbers.size-1]
+		- .first() and .last() also works to acces the first and the last element
+		
+		
+		
+		
+		
+		
