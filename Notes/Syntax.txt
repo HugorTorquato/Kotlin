@@ -153,4 +153,11 @@ Syntax
 		- User can also combineranges using logical operators || and &&
 		- User can also assign the range to a variable (val) imutable
 		- also works for characters and strings
+<<<<<<< HEAD
 		
+=======
+		
+			
+			
+			
+>>>>>>> bb413800ca0fd4f5917f428e5ab5f5e8f38f62f5
