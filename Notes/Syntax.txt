@@ -93,7 +93,6 @@ Syntax
         - You can compare Int and Long freely with >, <. >=, <=, but cannot use == and !=.
             You can check equality only for the same types, so you need to convert Int to Long
 
-<<<<<<< HEAD
     7- Conditional expression
             if (expression0) {
                 // do something
@@ -155,8 +154,3 @@ Syntax
 		- User can also assign the range to a variable (val) imutable
 		- also works for characters and strings
 		
-			
-			
-			
-=======
->>>>>>> parent of 544d331 (Day 4)
