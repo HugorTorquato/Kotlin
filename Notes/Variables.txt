@@ -58,6 +58,11 @@ Variables:
             - Can also work for expressions
                 val language = "Kotlin"
                 println("$language has ${language.length} letters in the name")
+		
+		- Strings are similar to lists, and can be manipulated by indexs
+			- ".first() .last() .lastIndex() .isEmpty()" also works with strings
+			- But user cannot change element by indexx
+			- 
 
     4 - Booleans
         - toBoolean() returns true if the input is "true", case insensitive. If otherwise, it will return false.

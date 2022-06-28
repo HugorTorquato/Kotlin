@@ -185,8 +185,8 @@ Syntax
 		
 		- Inex starts with 0
 		- can handle Int, Long, Double, Float, Char, String, Byte, or Boolean.
-		- Create amultableList of an specific size "MutableList(n)"
-		- if we páss something on the braces, kotlin will repet it over N times
+		- Create a multableList of an specific size "MutableList(n)"
+		- if we pass something on the braces, kotlin will repet it over N times
 			"a = MutableList(n) {"a"}" = {"a","a"....}
 		- There are also some properties "a.size" for example
 		- Read a mutable list from input
@@ -197,6 +197,52 @@ Syntax
 		- [0 ~ numbers.size-1]
 		- .first() and .last() also works to acces the first and the last element
 		
+		- "joinToString(<separator>)" -> Helps to output a list in different ways, unsing a separator
+		- Concatenate multiple lists using +
+			 val newList = southernCross + stars
+		- can use "==" or "!=" to compare lists
+			- only return true if the elements are the same and in the same order
+		- Even with val user can change the content of a list referencing by it's indexis
+			- IT doesn't change the link, just the content (that is why it is possible)
+			- "val star = mutableListOf("aa", "bb")
+			- "start[1] = cc" -> outputis "cc"
+		- Comands
+			- ".removeAt(<INDEX>)" -> Remove the element on the index
+			- ".remove(<CONTENT>" -> Remove enery ocorrency of the content
+			- ".add(<ELEMENT>)" -> Add a new element to the end of the list
+			- ".add(<INDEX>, <ELEMENT>)" -> Add a new element in the defined index
+			- ".addAll(<Another lsit>)" -> Add all elements from a second lins at the end of the first one
+			- ".clear()" -> Deletes all elements of the list
+			- "+=" can alsoo add elements to the list
+			- ".isEmpty() / isNotEmpty()" -> Verift if the list is empty or not
+			- ".subList(from, to)" -> Creates a smaller list including the from iondex until to-1.
+				- index to is not included
+			- "<ELEMENT> in list" -> Check if the element is on the list
+			- ".indexOf(<ELEMENT>)" -> Returns the element index
+			- "..minOrNull() / .maxOrNull()" -> Search for the min and max elements of the list
+			- ".sum()" -> returns  the sim of the elements
+			- ".stored()/ .storedDescending()" -> build a sortedlist from the available list
+			- 
+		- way to copy lists
+			val list = mutableListOf(1, 2, 3, 4, 5)
+			val copyList = list.toMutableList()
+
+			print(copyList) // [1, 2, 3, 4, 5]
+		- Loop through the list	
+			- for (element in LIST){}
+				Itwill loop to all elements of the list
+			- for (index in daysOfWeek.indices) {println("$index: ${daysOfWeek[index]}"}
+				it will oop trhough every index of the lsit
+			- for (index in 1..5)
+				- the index is defined in a agregate order 1..5 for example
+				- usando o "downTo" no luagr do .. da para decrementar os indexis
+			- Read Mutable list from input
+				    val size = readln().toInt()
+					val mutList: MutableList<Int> = mutableListOf()
+					for (i in 0 until size) {
+						mutList.add(readln().toInt())
+					}
+			- 
 		
 		
 		
